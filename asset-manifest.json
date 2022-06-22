@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.6f8bf151.css",
-    "main.js": "/static/js/main.93602d7a.js",
+    "main.js": "/static/js/main.20e841b8.js",
     "static/media/fujiome.webp": "/static/media/fujiome.6ec568278892b7ad137b.webp",
     "index.html": "/index.html",
     "main.6f8bf151.css.map": "/static/css/main.6f8bf151.css.map",
-    "main.93602d7a.js.map": "/static/js/main.93602d7a.js.map"
+    "main.20e841b8.js.map": "/static/js/main.20e841b8.js.map"
   },
   "entrypoints": [
     "static/css/main.6f8bf151.css",
-    "static/js/main.93602d7a.js"
+    "static/js/main.20e841b8.js"
   ]
 }
