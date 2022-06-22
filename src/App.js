@@ -1,25 +1,33 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Header from "./Front_view/header";
+import Navibar from "./Front_view/navibar";
+import First from "./Front_view/first_view";
 
-function App() {
+import Footer from "./Front_view/footer";
+
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Navibar />
+      {/* <Header /> */}
+      <First />
+      <Footer />
+      <BrowserRouter>
+        <Routes basename={process.env.PUBLIC_URL}>
+          <Route path="/github of repositoriName/" element={App} />
+          <Route path="/github of repositoriName/About" />
+          <Route path="/github of repositoriName/Contact" />
+        </Routes>
+      </BrowserRouter>
+    </>
+  )
 }
 
 export default App;
