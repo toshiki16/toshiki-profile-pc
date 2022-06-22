@@ -31,11 +31,11 @@ const Navibar = () => {
           <label id="h-menu_black" className="h-menuCheckbox" htmlFor="h-menu_checkbox"></label>
           <div id="h-menu_content">
             <ul>
-              <li><a href="/toshiki-profile/">ホーム</a></li>
-              <li><a href="/toshiki-profile/About">概要</a></li>
-              <li><a href="/toshiki-profile/Archive">制作したもの</a></li>
-              <li><a href="/toshiki-profile/Service">宣伝</a></li>
-              <li><a href="/toshiki-profile/Contact">お問い合わせ</a></li>
+              <li><a href="/toshiki-profile-pc/">ホーム</a></li>
+              <li><a href="/toshiki-profile-pc/About">概要</a></li>
+              <li><a href="/toshiki-profile-pc/Archive">制作したもの</a></li>
+              <li><a href="/toshiki-profile-pc/Service">宣伝</a></li>
+              <li><a href="/toshiki-profile-pc/Contact">お問い合わせ</a></li>
             </ul>
           </div>
         </div>

@@ -19,13 +19,13 @@ const App = () => {
       {/* <Header /> */}
       <First />
       <Footer />
-      <BrowserRouter>
+      {/* <BrowserRouter>
         <Routes basename={process.env.PUBLIC_URL}>
-          <Route path="/github of repositoriName/" element={App} />
-          <Route path="/github of repositoriName/About" />
-          <Route path="/github of repositoriName/Contact" />
+          <Route path="/toshiki-profile-pc/" element={<App />} />
+          <Route path="/toshiki-profile-pc/About" />
+          <Route path="/toshiki-profile-pc/Contact" />
         </Routes>
-      </BrowserRouter>
+      </BrowserRouter> */}
     </>
   )
 }
