@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.6f8bf151.css",
-    "main.js": "/static/js/main.84f564df.js",
-    "static/media/fujiome.webp": "/static/media/fujiome.6ec568278892b7ad137b.webp",
-    "index.html": "/index.html",
-    "main.6f8bf151.css.map": "/static/css/main.6f8bf151.css.map",
-    "main.84f564df.js.map": "/static/js/main.84f564df.js.map"
+    "main.css": "/toshiki-profile-pc/static/css/main.55a1903e.css",
+    "main.js": "/toshiki-profile-pc/static/js/main.44c75cf0.js",
+    "static/media/fujiome.webp": "/toshiki-profile-pc/static/media/fujiome.6ec568278892b7ad137b.webp",
+    "index.html": "/toshiki-profile-pc/index.html",
+    "main.55a1903e.css.map": "/toshiki-profile-pc/static/css/main.55a1903e.css.map",
+    "main.44c75cf0.js.map": "/toshiki-profile-pc/static/js/main.44c75cf0.js.map"
   },
   "entrypoints": [
-    "static/css/main.6f8bf151.css",
-    "static/js/main.84f564df.js"
+    "static/css/main.55a1903e.css",
+    "static/js/main.44c75cf0.js"
   ]
 }
